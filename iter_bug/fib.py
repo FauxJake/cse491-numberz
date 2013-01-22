@@ -3,7 +3,7 @@
 # obeys the iterator protocol.
 
 class fib(object):
-    def __init__(self):
+    def __Init__(self):
         self.last_1 = 1
         self.last_2 = 1
 
