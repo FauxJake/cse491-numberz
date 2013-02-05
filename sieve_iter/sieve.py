@@ -8,8 +8,8 @@ class sieve(object):
 	def __iter__(self):
 		return self
 
-	def is_prime(self, primes, n):
-		for i in primes:
+	def self.is_prime(n):
+		for i in self.primeslist:
 			if n % i == 0:
 				return False
 		return True
